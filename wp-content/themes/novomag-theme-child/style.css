@@ -1,0 +1,862 @@
+/*
+ Theme Name:   Economy & Markets Daily
+ Theme URI:    http://economyandmarkets.com/
+ Description:  Renowned market analyst Harry Dent used the power of demographics to predict long term economic trends.
+ Author:       Economy & Markets
+ Author URI:   #
+ Template:     novomag-theme
+ Version:      1.1.5
+ Tags:
+ Text Domain:  EM-theme-child
+*/
+
+@import url("../novomag-theme/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+body {
+background-size:cover!important;
+font-size:16px!important;
+
+}
+
+.panel p a {
+color:#247BD6!important;
+text-decoration:underline!important;
+}
+
+
+a {
+color: #992c2a;
+font-weight: 600;
+}
+
+a:hover {
+color:#F81C26;
+}
+
+.main-content >.wrapper {
+width:100%!important;
+}
+
+.breaking-news .breaking-block {
+margin-left:120px;
+border-right: 1px solid #9B9999;
+}
+
+.footer-widgets .center {
+text-align: left;
+}
+
+/*-- Replace excerpt color on slider navigation
+.slider-navigation li a span p {
+color:black!important;
+}---*/
+.slider-navigation li a span p {
+color:rgb(114, 112, 112);
+}
+
+.slider-navigation li.active a span p {
+color:#E9E7E7!important;
+}
+
+/* --- to add author on slider excerpt --- */
+.slider-navigation li a strong {
+	display: block;
+	font-size: 14px;
+	color: #232323;
+	line-height: 16px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+.fa.pull-left {
+margin-right: 0.5em;
+}
+
+.widget-1 {
+font-size:12px;
+font-family:'lato';
+}
+
+#menu-footer-menu {
+font-size: 14px;
+line-height: 2;
+}
+
+div.wpbfollowSelector {
+font-size:18px!important;
+}
+
+.main-menu .search-block {
+background:#992c2a!important;
+bottom:0px!important;
+}
+
+.slider .slider-image a .slider-overlay strong {
+padding: 5px 20px 2px 20px;
+}
+.aboutus {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/bw-heads.png');
+display:block;
+height:290px;
+background-repeat: no-repeat;
+float: left;
+transition-duration:2s;
+width: 90px;
+}
+
+.aboutus:hover {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/color-heads.png');
+transition-duration:2s;
+background-repeat: no-repeat;
+}
+
+.footer {
+background-image:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_Header_Footer_Option-1_BackgroundOnly_NoLogo.jpg')!important;
+background-repeat: no-repeat;
+background-size:cover;
+width: 100%!important;
+}
+
+.header-block {
+background-image:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_Header_1200x148.jpg')!important;
+background-repeat: no-repeat;
+background-size:cover;
+width: 100%!important;
+}
+
+.header-banner {
+padding-right: 20px;
+padding-top: 30px;
+padding-bottom: 20px;
+}
+
+header.header .wrapper {
+margin-bottom:0px!important;
+}
+
+.bglink1 {
+  display:block;
+  height:100%;
+  width:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:0;
+  text-indent:-5000em;
+  /* If you want to make only a part of background clickable,
+     adjust height/width/left/top here. */
+}
+
+.vc_box_shadow {
+box-shadow: 3px 3px 4px rgba(68, 67, 67, 1)!important;
+padding: 0px!important;
+}
+
+.shortcode-content li a {
+color: #000000!important;
+text-decoration: none;
+font-family: 'lato';
+}
+
+.shortcode-content ul li {
+margin: 0px 0 0 0;
+line-height: 150%;
+}
+
+ul.ytchagallery .ytctitle a {
+font-family: 'lato';
+font-size: 14px!important;
+font-weight: 600;
+line-height: 1.2;
+color: black!important
+}
+
+@media only screen and (max-width: 1254px){
+.wrapper {
+width: 100%!important;
+}
+}
+
+@media only screen and (min-width: 401px) and (max-width: 599px) {
+.header-block {
+background-image:url('http://economyandmarkets.com/wp-content/uploads/2014/06/enm-head-600.jpg')!important;
+}
+}
+
+@media only screen and (max-width: 400px) {
+.header-block {
+background-image:url('http://economyandmarkets.com/wp-content/uploads/2014/06/mobileheadenm.jpg')!important;
+}
+}
+
+@media only screen and (max-width: 600px)
+.header-block .header-banner img {
+width: 100%!important;
+}
+
+
+
+/* IN POST ADS
+-------------------------------------------------------------- */
+
+.d4c31_custom_ad a.button {
+padding: 0px 10px!important;
+font-size: 16px!important;
+}
+
+.d4c31_custom_ad {
+margin:20px!important;
+background:#a6a6a6!important;
+color:#fff!important;
+}
+
+.postad {
+margin:auto;
+width:350px;
+margin-top: -22px;
+}
+
+
+/* BUTTONS and FORMS
+-------------------------------------------------------------- */
+.dow1 {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_SignUpBox_PathtoDow.jpg');
+width: 350px;
+height: 300px;
+position:relative;
+}
+
+.gold1 {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_SignUpBox_GoldWillFall.jpg');
+width: 350px;
+height: 300px;
+position:relative;
+}
+
+.forecast1 {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_SignUpBox_FiveTopForecast.jpg');
+width: 350px;
+height: 300px;
+position:relative;
+}
+
+.dollar1 {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_SignUpBox_Dollar-ReserverHeretoStay.jpg');
+width: 350px;
+height: 300px;
+position:relative;
+}
+
+.munis1 {
+background:url('http://economyandmarkets.com/wp-content/uploads/2014/06/ENM_SignUpBox_MuniBondMaelstrom.jpg');
+width: 350px;
+height: 300px;
+position:relative;
+}
+
+.disclaim {
+position: absolute;
+bottom: -11px;
+font-size: 10px;
+font-family: helvetica;
+color: #353535!important;
+left: 70px;
+}
+
+.disclaim a {
+color: #353535!important;
+font-weight: 500!important;
+}
+
+.enm-form1 {
+position: absolute;
+bottom: 18px;
+left: 10px;
+}
+
+.enm-submit {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a30d0d), color-stop(1, #851805));
+	background:-moz-linear-gradient(top, #a30d0d 5%, #851805 100%);
+	background:-webkit-linear-gradient(top, #a30d0d 5%, #851805 100%);
+	background:-o-linear-gradient(top, #a30d0d 5%, #851805 100%);
+	background:-ms-linear-gradient(top, #a30d0d 5%, #851805 100%);
+	background:linear-gradient(to bottom, #a30d0d 5%, #851805 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a30d0d', endColorstr='#851805',GradientType=0);
+	background-color:#a30d0d;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+        border:0px!important;
+	color:#ffffff;
+	font-family: helvetica;
+	font-size:16px;
+	padding:6px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.enm-submit:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #851805), color-stop(1, #a30d0d));
+	background:-moz-linear-gradient(top, #851805 5%, #a30d0d 100%);
+	background:-webkit-linear-gradient(top, #851805 5%, #a30d0d 100%);
+	background:-o-linear-gradient(top, #851805 5%, #a30d0d 100%);
+	background:-ms-linear-gradient(top, #851805 5%, #a30d0d 100%);
+	background:linear-gradient(to bottom, #851805 5%, #a30d0d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#851805', endColorstr='#a30d0d',GradientType=0);
+	background-color:#851805;
+}
+.enm-submit:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.enm-input {
+border:0px!important;
+margin: 5px;
+height:14px;
+width: 180px;
+box-shadow: inset 0 0 5px #000000!important;
+font-size: 14px;
+font-weight:600;
+font-family: helvetica;
+color:#424141!important;
+border-radius: 5px!important;
+background: #bababa; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JhYmFiYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4Nzg3ODciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #bababa 0%, #878787 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bababa), color-stop(100%,#878787)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #bababa 0%,#878787 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #bababa 0%,#878787 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #bababa 0%,#878787 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #bababa 0%,#878787 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bababa', endColorstr='#878787',GradientType=0 ); /* IE6-8 */
+
+
+}
+
+.yesno {
+-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+box-shadow:inset 0px 1px 0px 0px #cf866c;
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+background-color:#d0451b;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+border:1px solid #942911;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:arial;
+font-size:28px;
+text-align: center;
+padding: 6px;
+width:44%;
+margin: 10px;
+text-decoration:none;
+text-shadow:0px 1px 0px #854629;
+
+}
+.yesno:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+background-color:#bc3315;
+}
+
+/*New Signup Form*/
+
+.form-container0 {
+   border: 3px solid rgb(110, 110, 110);
+   background: #ffffff;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   text-decoration: none;
+   vertical-align: middle;
+   padding: 10px;
+   display: block;
+   margin: auto;
+   max-width: 330px;
+   }
+.form-field0 {
+   border: 0px solid #520202;
+   background: #dedede;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   color: #400000!important;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:0px!important;
+   margin-bottom:20px;
+   width:100%;
+   font-size: 18px;
+   text-align: center;
+   height: 38px;
+   font-weight: bold;
+   margin-bottom: 0px;
+   box-shadow: inset 0 0 2px #000000!important;
+   border-radius: 5px!important;
+   }
+.form-field0:focus {
+   background: #f5f5f5;
+   color: #450000;
+   }
+.form-container0 h2 {
+   font-size:26px;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-container0 .disclaim {
+  position: relative;
+  bottom:0;
+  left:0;
+  display: block;
+  margin: auto;
+  width:220px;
+}
+.form-title0 {
+   margin-bottom:10px;
+   color: #b40004;
+   font-size:18px;
+   }
+.form-subtitle0 {
+  font-size: 21px;
+  padding:15px 15px 10px 5px;
+  color:#000000;
+  text-align: center;
+}
+.submit-container0 {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button0 {
+   border: 1px solid #4d0000;
+   background: #820000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#a80000), to(#820000));
+   background: -webkit-linear-gradient(top, #a80000, #820000);
+   background: -moz-linear-gradient(top, #a80000, #820000);
+   background: -ms-linear-gradient(top, #a80000, #820000);
+   background: -o-linear-gradient(top, #a80000, #820000);
+   background-image: -ms-linear-gradient(top, #a80000 0%, #820000 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #000000 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 22px;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-top: 10px;
+    width: 100%;
+   margin-bottom: 10px;
+   }
+.submit-button0:hover {
+   border: 1px solid #4d0000;
+   text-shadow: #000000 0 1px 0;
+   background: #a80000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#820000), to(#a80000));
+   background: -webkit-linear-gradient(top, #820000, #a80000);
+   background: -moz-linear-gradient(top, #820000, #a80000);
+   background: -ms-linear-gradient(top, #820000, #a80000);
+   background: -o-linear-gradient(top, #820000, #a80000);
+   background-image: -ms-linear-gradient(top, #820000 0%, #a80000 100%);
+   color: #fff;
+   }
+.report-img {
+  width: 150px;
+  box-shadow: 2px 2px 4px;
+  margin: 10px;
+  float: left;
+  opacity: 1;
+}
+.widget-1 {
+margin-bottom: 0px!important;
+}.main-menu .search-block .search-value:focus {
+  width: 270px;
+  margin-right: 50px;
+  color: white;
+}
+.main-menu .search-block .search-value {
+
+	width: 320px;
+	cursor: text;
+	color: white;
+
+}
+.main-menu .search-block .search-button {
+	position: absolute;
+	z-index: 9;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	border: 0px;
+	cursor: pointer;
+	width: 50px;
+	overflow: hidden;
+	color: inherit;
+	font-family: 'FontAwesome', serif;
+	background: transparent;
+}
+#sidebar .widget {
+
+	margin-bottom: 10px;
+
+}
+.vc_responsive .shortcode-content a.snppopup img { opacity: 1 !important; }
+
+
+
+@media only screen and (max-width: 600px) {
+	.header-topmenu .wrapper a.toggle-menu:nth-child(2),
+	.main-menu .wrapper a.toggle-menu:nth-child(3) {
+	    display: none;
+	}
+}
+
+.esi-slide-id-39858 .esi-slide-content { padding: 0; }
+.esi-slide-id-39858 .esi-slide-content .form-container0 {
+    height: 220px;
+    background: url('http://9640-presscdn-0-28.pagely.netdna-cdn.com/wp-content/uploads/2015/06/Harry-6.12.15.png') no-repeat #fff;
+    box-sizing: border-box;
+    padding: 0;
+    background-size: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+.esi-slide-id-39858 .esi-slide-content .form-container0 br { display: none; }
+.esi-slide-id-39858 .esi-slide-content h2 {
+    margin-top: 50px;
+    margin-right: 55px;
+}
+.esi-slide-id-39858 .esi-slide-content .center_txt { text-align: center; }
+.esi-slide-id-39858 .esi-slide-content h3 {
+    line-height: 1.5;
+    margin-top: 5px;
+    width: 235px;
+    margin-left: 38px;
+}
+.esi-slide-id-39858 .esi-slide-content input#email {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0;
+    border-radius: 0;
+}
+.esi-slide-id-39858 .esi-slide-content p { margin: 0; }
+.esi-slide-id-39858 .esi-slide-content input[type="submit"] {
+    background: #b42730;
+    border: 1px solid black;
+    border-left: none;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+}
+.esi-slide-id-39858 .esi-slide-content a {
+  color: #992c2a;
+  display: block;
+  width: auto;
+}
+.esi-slide-id-39858 .esi-slide-content .form-container0 h3 br { display: inline; }
+.esi-slide-id-39858 .esi-slide-content input#email { margin-top: 10px; }
+.esi-slide-id-39858 .esi-slide-content input[type="submit"] { margin-right: 55px; }
+.esi-slide-id-39858 .esi-slide-content a {
+    font-size: 10px;
+    margin-right: 55px;
+    margin-top: 0;
+}
+.esi-slide-id-39858 .esi-slide-close {
+    top: 0;
+    right: 0;
+}
+.esi-slide-id-39858 .esi-slide-content label {
+    font-size: 10px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 250px;
+}
+@media(max-width:600px) {
+  .esi-slide-id-39858 .esi-slide-close a:before { font-size: 45px; }
+  .esi-slide-id-39858 .esi-slide-content .form-container0 { height: 200px;  }
+  .esi-slide-id-39858 .esi-slide-content h2 {
+    margin-top: 45px;
+    font-size: 22px;
+    margin-right: 45px;
+  }
+  .esi-slide-id-39858 .esi-slide-content { padding: 0; }
+  .esi-slide-id-39858 .esi-slide-content h3 {
+      margin-top: 5px;
+      margin-right: 80px;
+      font-size: 12px;
+      width: 210px !important;
+      margin-left: 10px;
+  }
+  .esi-slide-id-39858 .esi-slide-content p { margin: 0; }
+  .esi-slide-id-39858 .esi-slide-content input#email {
+      width: 100px;
+      margin-top: 10px;
+  }
+  .esi-slide-id-39858 .esi-slide-content input[type="submit"] {
+      margin-top: 10px;
+      margin-right: 85px;
+  }
+  .esi-slide-id-39858 .esi-slide-content a {
+    font-size: 10px;
+    margin-right: 65px;
+  }
+  .esi-slide-id-39858 .esi-slide-wrap-39858 .esi-slide-close { top: 10px; right: 10px; }
+}
+.search-results .esi-slide { display: none !important; }
+
+/**
+ *
+ * issue #10127 recent articles
+ *
+ */
+.ecom_recent_row {
+  margin-bottom: 35px;
+}
+.ecom_recent_row h2 {
+  border-bottom: 2px solid #3b3b3b;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.ecom_recent_row .related-article {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+.ecom_recent_row .related-article:last-child {
+  margin-right: 0;
+}
+.ecom_recent_row .related-article img {
+  cursor: pointer;
+  height: 137px !important;
+}
+.ecom_recent_row .related-article h3 {
+  line-height: 100%;
+  color: #992c2a;
+  font-size: 20px;
+}
+.ecom_recent_row .related-article h3 a {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 100%;
+  cursor: pointer;
+}
+.ecom_recent_row .related-article .category-name {
+  float: left;
+  margin-right: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.ecom_recent_row .related-article .category-name a,
+.ecom_recent_row .related-article .article-date a {
+  color: #aaa;
+}
+.ecom_recent_row .related-article .category-name a:hover,
+.ecom_recent_row .related-article .article-date a:hover {
+  color: #992c2a;
+}
+.ecom_recent_row .related-article .article-date {
+  font-size: 12px;
+  float: right;
+}
+
+/** add LATEST NEWS and RECENT POSTS FROM OUR EXPERTS to sidebar **/
+#widget-recent-posts li {
+  min-height: 60px;
+}
+#widget-recent-posts li img {
+  max-height: 60px;
+  max-width: 60px;
+  float: left;
+  margin-right: 15px;
+}
+#widget-recent-posts li a {
+  color: #000;
+  display: block;
+  font-size: 14px;
+}
+#widget-recent-posts li span {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #999;
+}
+#widget-recent-posts li hr {
+  width: 77%;
+  margin-left: 75px;
+  box-sizing: border-box;
+  border: 0;
+  border-top: 1px dotted #ccc;
+}
+#widget-recent-posts li span.post-date:after {
+  content: '|';
+  vertical-align: top;
+  margin: 0 6px;
+}
+#sidebar #widget-author-posts li {
+  padding-top: 2px;
+}
+#widget-author-posts li span,
+#widget-author-posts li span a {
+  color: #992c2a;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+  display: block;
+}
+#widget-author-posts li span a:nth-child(2) {
+  display: none;
+}
+#widget-author-posts li a {
+  color: #000;
+  font-weight: 500;
+}
+.home #widget-author-posts,
+.home #widget-recent-posts {
+  display: none;
+}
+@media screen and (max-width: 899px) {
+  .ecom_recent_row { padding: 0 20px; }
+}
+
+@media screen and (max-width: 767px) {
+  .ecom_recent_row .related-article { width: 100%; margin: 0 0 40px; }
+  .ecom_recent_row .related-article img,
+  .ecom_recent_row .related-article h3 { height: auto !important; margin: 0 0 15px; }
+  .ecom_recent_row .related-article h3 a { line-height: 130%; font-size: 20px; }
+}
+@media screen and (min-width: 768px) {
+  .ecom_recent_row .related-article h3 {
+    height: 40px;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+  }
+}
+
+
+/*
+ * Takeover Styles
+ */
+html, body { height: 100%; }
+
+/* IRRATIONAL */
+/*
+#Takeover {
+   position: fixed;
+   top:0; left: 0;
+   width: 100%; height: 100%;
+   background-color: #525fbb;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #Takeover { height: 2000px; }
+}
+
+#TakeoverLeft, #TakeoverRight {
+   position: absolute;
+   top: 50px; left: -9000px;
+   width: 213px; height: 1000px;
+   background-color: transparent;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#TakeoverLeft a, #TakeoverRight a {
+   display: block;
+   width: 100%; height: 100%;
+   cursor: pointer;
+   text-indent: -9999px;
+   outline: none !important;
+   text-decoration: none !important;
+}
+
+.active.boxed { opacity: .99; }
+*/
+
+/* The Sale Of A Lifetime */
+#Takeover {
+   position: fixed;
+   top:0; left: 0;
+   width: 100%; height: 100%;
+   background-color: white;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #Takeover { height: 2000px; }
+}
+
+#TakeoverLeft, #TakeoverRight {
+   position: absolute;
+   top: 0; left: -9000px;
+   width: 200px; height: 1000px;
+   background-color: transparent;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#TakeoverLeft a, #TakeoverRight a {
+   display: block;
+   width: 100%; height: 100%;
+   cursor: pointer;
+   text-indent: -9999px;
+   outline: none !important;
+   text-decoration: none !important;
+}
+
+.active.boxed { opacity: .99; }
+
+.single-exclusives a img.aligncenter {
+    opacity: 1 !important;
+}

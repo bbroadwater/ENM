@@ -1,0 +1,35 @@
+/* ignore WP core */
+
+wp-admin
+wp-includes
+wp-content-bak
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/mu-plugins/pagely*
+wp-content/plugins/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-config-hosting.php
+db-config.php
+/wp-*.php
+/index.php
+
+/* ignore other files */
+
+googlec2f34b3e80c14802.html
+sitemap.xml
+license.txt
+readme.html
+xmlrpc.php
+sitemap.xml.gz
+.DS_Store
+robots.txt
+
+*.log
+*.sql
+*.swp
+*~

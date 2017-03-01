@@ -1,0 +1,37 @@
+html, body { height: 100%; }
+#Takeover {
+   position: fixed;
+   top:0; left: 0;
+   width: 100%; height: 100%;
+   /* background-color: #525fbb; */ /* irrational takeover background */
+   background-color: transparent;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+   overflow: hidden;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   #Takeover { height: 2000px; }
+}
+
+#TakeoverLeft, #TakeoverRight {
+   position: absolute;
+   top: 50px; left: -9000px;
+   width: 213px; height: 1000px;
+   background-color: transparent;
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#TakeoverLeft a, #TakeoverRight a {
+   display: block;
+   width: 100%; height: 100%;
+   cursor: pointer;
+   text-indent: -9999px;
+   outline: none !important;
+   text-decoration: none !important;
+}
+
+.active.boxed { opacity: .99; }

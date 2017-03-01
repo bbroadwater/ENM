@@ -1,0 +1,137 @@
+Version 1.1.5
+*Edited Files
+style.css
+includes/lib/plugins/js_composer.zip
+
+Version 1.1.4
+*Edited Files
+style.css
+includes/single/share.php
+functions/ajax.php
+js/scripts.js
+
+Version 1.1.3
+*Edited Files
+style.css
+footer.php
+
+Version 1.1.2
+*Edited Files
+style.css
+includes/lib/plugins/js_composer.zip
+includes/widgets/widget-ad125x125.php
+includes/widgets/widget-ad300x250.php
+includes/widgets/widget-novomag-about.php
+includes/widgets/widget-novomag-aweber.php
+includes/widgets/widget-novomag-gallery.php
+includes/widgets/widget-novomag-latest-posts.php
+includes/widgets/widget-novomag-popular-posts.php
+includes/widgets/widget-novomag-reviews.php
+includes/widgets/widget-novomag-triple.php
+
+Version 1.1.1
+*Edited Files
+style.css
+includes/lib/plugins/js_composer.zip
+
+Version 1.1.0
+*Edited Files
+style.css
+css/responsive/
+includes/admin/general.php
+functions/filters.php
+functions/other.php
+includes/widgets/widget-novomag-triple.php
+includes/single/about-author.php
+includes/lib/plugins/js_composer.zip
+
+
+Version 1.0.9
+*Edited Files
+style.css
+functions/ajax.php
+includes/lib/plugins/js_composer.zip
+
+Version 1.0.8
+*Edited Files
+style.css
+js/novomag.js
+
+Version 1.0.7
+*Edited Files
+style.css
+includes/home-blocks/latest-news-5.php
+functions/drag-drop.php
+functions/homepage-blocks.php
+css/main-stylesheet.css
+
+
+Version 1.0.6
+*Edited Files
+style.css
+includes/lib/plugins/js_composer.zip
+css/main-stylesheet.css
+css/responsive/
+includes/home-blocks/latest-news-4.php
+includes/home-blocks/categories-1.php
+
+Version 1.0.5
+*Edited Files
+style.css
+includes/widgets/widget-novomag-latest-posts.php
+includes/widgets/widget-novomag-popular-posts.php
+includes/widgets/widget-novomag-triple.php
+css/main-stylesheet.css
+css/dynamic-css.php
+js/SmoothScroll.min.js
+functions/jquery-css-include.php
+includes/admin/functions/default-values.php
+includes/home-blocks/latest-news-1.php
+includes/home-blocks/latest-news-2.php
+
+
+Version 1.0.4
+*Edited Files
+style.css
+includes/admin/buttons-formatting/custom-editor-style.css
+includes/admin/buttons-formatting/editor-plugin.js
+includes/lib/plugins/js_composer.zip
+
+Version 1.0.3
+* Edited Files
+style.css
+includes/lib/plugins/js_composer.zip
+includes/loop/loop-start.php
+functions/novomag-menu.php
+functions/jquery-css-include.php
+template-homepage.php
+footer.php
+css/owl.carousel.css
+css/main-stylesheet.css
+js/owl.carousel.min.js
+images/no-image-598x407.jpg
+images/slider-shadow.png
+images/no-image-296x407.jpg
+includes/home-blocks/latest-news-1.php
+
+Version 1.0.2
+* Edited Files
+style.css
+includes/home-blocks/latest-news-2.php
+js/theme-scripts.js
+js/novomag.js
+template-homepage.php
+css/main-stylesheet.css
+functions/novomag-menu.php
+footer.php
+
+Version 1.0.1
+* Edited Files
+style.css
+css/dynamic-css.php
+includes/lib/plugins/js_composer.zip
+
+Version 1.0.0
+* Initial Release
+
+
