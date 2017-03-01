@@ -125,3 +125,61 @@ function add_my_rss_node() {
 	$excerpt = get_the_excerpt();
 	echo("<excerpt>{$excerpt}</excerpt>");
 }
+
+function latest_news() {
+	global $post;
+
+	$latest_news = array(
+		array(
+			'image'    => get_field('ln_image_1'   , $post->ID),
+			'headline' => get_field('ln_headline_1', $post->ID),
+			'url'      => get_field('ln_url_1', $post->ID),
+		),
+		array(
+			'image'    => get_field('ln_image_2'   , $post->ID),
+			'headline' => get_field('ln_headline_2', $post->ID),
+			'url'      => get_field('ln_url_2', $post->ID),
+		),
+		array(
+			'image'    => get_field('ln_image_3'   , $post->ID),
+			'headline' => get_field('ln_headline_3', $post->ID),
+			'url'      => get_field('ln_url_3', $post->ID),
+		),
+	);
+
+	foreach ($latest_news as $_key => $_news) {
+		if (!$_news['image'] || !$_news['headline'] || !$_news['url'])
+			unset($latest_news[$_key]);
+	}
+
+	return $latest_news;
+}
+
+function recent_articles() {
+	global $post;
+
+	$latest_news = array(
+		array(
+			'image'    => get_field('ra_image_1'   , $post->ID),
+			'headline' => get_field('ra_headline_1', $post->ID),
+			'url'      => get_field('ra_url_1', $post->ID),
+		),
+		array(
+			'image'    => get_field('ra_image_2'   , $post->ID),
+			'headline' => get_field('ra_headline_2', $post->ID),
+			'url'      => get_field('ra_url_2', $post->ID),
+		),
+		array(
+			'image'    => get_field('ra_image_3'   , $post->ID),
+			'headline' => get_field('ra_headline_3', $post->ID),
+			'url'      => get_field('ra_url_3', $post->ID),
+		),
+	);
+
+	foreach ($latest_news as $_key => $_news) {
+		if (!$_news['image'] || !$_news['headline'] || !$_news['url'])
+			unset($latest_news[$_key]);
+	}
+
+	return $latest_news;
+}

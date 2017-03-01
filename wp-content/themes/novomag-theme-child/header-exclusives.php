@@ -28,6 +28,9 @@
       a.toggle-menu { text-indent: -9999px; }
     }
   </style>
+<style>
+.fancybox-overlay, .snp-theme-image, .fancybox-outer, .fancybox-wrap  {display: none !important;}
+</style>
 
 <script>
     (function(f,b,g){
