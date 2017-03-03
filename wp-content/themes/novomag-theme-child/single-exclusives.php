@@ -52,13 +52,21 @@ Description: This part is optional, but helpful for describing the Post Template
 		</a>
 	</div>
 
-	<div class="widget">
-		<a class="plink" target="_blank" href="<?php if(get_field('side_ad_banner_url_2')) { the_field('side_ad_banner_url_2'); } else { echo "javascript:;"; } ?>" >
-			<?php if(get_field('side_ad_banner_2')) { ?>
-				<img src="<?php the_field('side_ad_banner_2'); ?>" alt="" />
-			<?php } ?> 
-		</a>
-	</div>
+	<?php if ($recent_articles = recent_articles()): ?>
+		<div class="widget">
+			<div class="w-title">
+				<h3>Related Articles</h3>
+			</div>
+			<ul id="widget-recent-posts">
+				<?php foreach ($recent_articles as $_news): ?>
+					<li>
+						<a href="<?php echo $_news['url'] ?>"><img width="150" height="150" src="<?php echo $_news['image']['sizes']['thumbnail'] ?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="opacity: 1;"></a>
+						<p><a href="<?php echo $_news['url'] ?>"><?php echo $_news['headline'] ?></a></p>
+					</li>
+				<?php endforeach ?>
+			</ul>
+		</div>
+	<?php endif ?>
 
 	<?php if ($latest_news = latest_news()): ?>
 		<div class="widget">
@@ -76,26 +84,18 @@ Description: This part is optional, but helpful for describing the Post Template
 		</div>
 	<?php endif ?>
 
-	<?php if ($recent_articles = recent_articles()): ?>
-		<div class="widget">
-			<div class="w-title">
-				<h3>Recent Articles</h3>
-			</div>
-			<ul id="widget-recent-posts">
-				<?php foreach ($recent_articles as $_news): ?>
-					<li>
-						<a href="<?php echo $_news['url'] ?>"><img width="150" height="150" src="<?php echo $_news['image']['sizes']['thumbnail'] ?>" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="opacity: 1;"></a>
-						<p><a href="<?php echo $_news['url'] ?>"><?php echo $_news['headline'] ?></a></p>
-					</li>
-				<?php endforeach ?>
-			</ul>
-		</div>
-	<?php endif ?>
+	<div class="widget">
+		<a class="plink" target="_blank" href="<?php if(get_field('side_ad_banner_url_2')) { the_field('side_ad_banner_url_2'); } else { echo "javascript:;"; } ?>" >
+			<?php if(get_field('side_ad_banner_2')) { ?>
+				<img src="<?php the_field('side_ad_banner_2'); ?>" alt="" />
+			<?php } ?> 
+		</a>
+	</div>
 </aside>
 <!-- END #sidebar -->
 
-<?php get_template_part(THEME_SINGLE."page-footer"); ?>	
+<?php //get_template_part(THEME_SINGLE."page-footer"); ?>	
 
 </div>
 
-<?php get_footer(); ?>
+<?php //get_footer(); ?>

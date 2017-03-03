@@ -22,6 +22,11 @@ font-size:16px!important;
 
 }
 
+body.single-exclusives { 
+background-color: #FFFFFF !important; 
+background-image:none !important;
+}
+
 .panel p a {
 color:#247BD6!important;
 text-decoration:underline!important;

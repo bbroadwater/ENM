@@ -10,34 +10,13 @@
 	
 
 ?>		
-		<!-- BEGIN .boxed -->
-		<div class="boxed<?php echo $page_layout=="boxed" ? " active" : false; ?>">
-			
 			<!-- BEGIN .header -->
-			<header class="header">
-				<!-- BEGIN .wrapper -->
-				<div class="wrapper">
-					<div class="header-block">
-						<div class="header-logo">
-							<?php if($logo) { ?>
-								<img src="<?php echo $logo;?>" alt="<?php bloginfo('name'); ?>" />
-							<?php } else { ?>
-								<h1><?php bloginfo('name'); ?></h1>
-							<?php } ?>
-						</div>
-							<div class="header-banner">
-								<?php if(get_field('top_banner_url')) { ?><a class="plink" target="_blank" href="<?php the_field('top_banner_url'); ?>" ><?php } else { ?><a target="_blank" href="<?php the_field('top_banner_url_forced'); ?>"> <?php } ?><?php if(get_field('top_banner_img')) { ?>
-                    <img src="<?php the_field('top_banner_img'); ?>" alt="" width="100%" />
-                 <?php } ?>   
-        </a>					
-							</div>
-					</div>
-					
-				<!-- END .wrapper -->
-				</div>
+			<header class="header" style="background:url(/wp-content/uploads/2017/03/enm_head.png) #771f1f no-repeat center center;width:100%;height:129px">
 			<!-- END .header -->
 			</header>
 
+		<!-- BEGIN .boxed -->
+		<div class="boxed<?php echo $page_layout=="boxed" ? " active" : false; ?>">
 <?php wp_reset_query(); ?>
 
 
