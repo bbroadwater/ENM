@@ -226,7 +226,7 @@ $(".plink").each(function(){
 
 
 	<!-- BEGIN body -->
-	<body <?php body_class();?> style="background-color: #FFFFFF !important;background-image:none !important;">
+	<body <?php body_class();?>>
     <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
 
 		<?php get_template_part(THEME_INCLUDES."banners");?>

@@ -880,7 +880,7 @@ html, body { height: 100%; }
 }
 
 .single-exclusives #widget-recent-posts p a {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: normal;
 	line-height: normal;
 }
@@ -888,5 +888,7 @@ html, body { height: 100%; }
 .single-exclusives #widget-recent-posts p {
 	display: inline-block;
 	vertical-align: middle;
-	width: 270px;
+	width: 200px;
 }
+
+.content.has-sidebar > .wrapper > #sidebar { width:280px }
