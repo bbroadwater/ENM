@@ -860,7 +860,10 @@ html, body { height: 100%; }
    text-decoration: none !important;
 }
 
-.active.boxed { opacity: .99; }
+.active.boxed { 
+	opacity: .99; 
+	box-shadow: none !important;
+}
 
 .single-exclusives a img.aligncenter {
     opacity: 1 !important;

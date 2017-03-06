@@ -11,7 +11,7 @@
 
 ?>		
 			<!-- BEGIN .header -->
-			<header class="header" style="background:url(/wp-content/uploads/2017/03/enm_head.png) #771f1f no-repeat center center;width:100%;height:129px">
+			<header class="header" style="background:url(/wp-content/uploads/2017/03/enm_gray.png) #333333 no-repeat center center;width:100%;height:129px">
 			<!-- END .header -->
 			</header>
 

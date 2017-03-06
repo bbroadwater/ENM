@@ -67,7 +67,7 @@ Description: This part is optional, but helpful for describing the Post Template
 			</ul>
 		</div>
 	<?php endif ?>
-
+		<br><br>
 	<?php if ($latest_news = latest_news()): ?>
 		<div class="widget">
 			<div class="w-title">
