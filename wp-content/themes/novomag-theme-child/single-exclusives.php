@@ -20,7 +20,7 @@ Description: This part is optional, but helpful for describing the Post Template
 <?php get_template_part("exclusives-loop-start"); ?>
 
 	<div class="article-head">
-		<h1 class="fn entry-title"><?php echo the_title(); ?></h1>
+		<h1 class="single-head"><?php echo the_title(); ?></h1>
 		<div class="article-info">
 			<div class="left">
 				<?php if (get_field('author')): ?>
@@ -94,8 +94,8 @@ Description: This part is optional, but helpful for describing the Post Template
 </aside>
 <!-- END #sidebar -->
 
-<?php //get_template_part(THEME_SINGLE."page-footer"); ?>	
+<?php get_template_part(THEME_SINGLE."page-footer"); ?>	
 
 </div>
 
-<?php //get_footer(); ?>
+<?php get_footer('exclusives'); ?>

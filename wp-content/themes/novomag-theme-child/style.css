@@ -32,6 +32,10 @@ color:#247BD6!important;
 text-decoration:underline!important;
 }
 
+.single-exclusives .article-head h1:first-letter {
+        font-size: 26px;
+}
+
 
 a {
 color: #992c2a;
@@ -894,4 +898,4 @@ html, body { height: 100%; }
 	width: 200px;
 }
 
-.content.has-sidebar > .wrapper > #sidebar { width:280px }
+.single-exclusives .content.has-sidebar > .wrapper > #sidebar { width:280px }
